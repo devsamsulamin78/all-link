@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%) ; 
+}
+
+.social_container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 300px;
+    /* height: 500px; */
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;    
+}
+
+.social_link img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border: 2px solid hsl(75, 94%, 57%);
+}
+
+.social_link_tittle h1 {
+    color:hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.social_link_tittle h5 {
+     font-size: 14px;
+     padding-top: 7px;
+     font-family: sans-serif;
+     text-align: center;
+     color: hsl(75, 94%, 57%);
+}
+
+
+.social_link_tittle p {
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.social_account_link {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+
+.social_account_link button {
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 20%); 
+}
+
+.social_account_link button a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 70px;
+    color: white;
+}
+
+.social_account_link button:hover {
+    background-color:  hsl(75, 94%, 57%);
+}
+
+.social_account_link button a:hover {
+    color: black;
+}
+
+
+
+
+
+
